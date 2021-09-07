@@ -1,0 +1,976 @@
+*{
+ margin:0;
+ padding: 0;
+}
+body{
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y:no-content;
+  
+}
+a{
+  text-decoration: none;
+}
+.menu {
+  width:100%;
+  position:absolute;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border: 2px solid;
+  border-color: #7ba468;
+  margin-top:1%;
+  margin-bottom: 15vh;
+  background-color: white;
+}
+.menu ul li{
+  font-size: 1rem;
+  width: 21.33%;
+  float: left;
+  margin-top:0%;
+  bottom: 10px;
+  margin-left: 16%;
+  list-style:  none;
+  color: black;
+}
+.menu ul li:hover{
+  background-color: #7ba468;
+  color: white;
+}
+.menu ul {
+  padding: 0px;
+}
+
+
+.menu ul ul{
+  display: none;
+
+}
+.menu ul li:hover > ul{
+  display: block;
+
+}
+
+
+
+
+
+.menu ul li a{
+
+  text-decoration: none;
+  color: black;
+}
+.menu ul li:hover >a{
+  color: white;
+}  
+
+
+
+
+.menu_dddd li img{
+ float: left;
+ margin-top: 1%;
+
+}
+
+.cat_1{
+
+ display: block;
+ width: 45%;
+ margin-top: 0%;
+ margin-left: -15%;
+}
+.menu_dddd li .cat_2{
+  display: block;
+  width: 37.5%;
+  margin-top:2%;
+
+  margin-left: -118%;
+
+
+
+}
+.menu ul li ul li .cat_3{
+
+
+  width: 52%;
+  margin-left: -60%;
+  margin-top: -50%;
+  z-index: 1;
+}
+
+.menu ul li ul li .cat_4{
+
+ margin-top: -52.5%;
+ width: 39%;
+ margin-left: 9%;
+
+}
+
+/**---------------------------------------------**/
+.linha_1{
+ width: 2500px;
+ left: -150%;
+}
+.menu ul li .linha_1{
+
+  position: relative;
+
+  height: 340px;
+  background-color:#7ba468 ;
+
+  z-index: 1;
+
+  display: none; 
+}
+
+/**---------------------------------------------**/
+.menu_dddd{
+ width: 2500px;
+ left: -351%;
+}
+.menu ul li .menu_dddd{
+
+  position: relative;
+
+  height: 340px;
+  background-color:#7ba468 ;
+  right: 20px;
+
+  z-index: 1;
+
+  display: none; 
+}
+.menu ul li:hover .menu_dddd{
+
+  display: block;
+
+}
+/**---------------------------------------------**/
+
+.menu_ddddd{
+ width: 2500px;
+ left: -500%;
+}
+.menu ul li .menu_ddddd{
+
+  position: relative;
+
+  height: 395px;
+  background-color:#7ba468 ;
+  right: 20px;
+
+  z-index: 1;
+
+  display: none; 
+}
+.menu ul li:hover .menu_ddddd{
+
+  display: block;
+
+}
+.menu ul li .linha_1{
+ margin-left: 40px;
+ color: white;
+}
+.menu ul li .linha_1 .A a{
+ position: relative;
+ float: left;
+ right: 150px;
+ font-size: 70px;
+ margin-top: 100px;
+ color: white;
+
+}
+.menu ul li .linha_1 .B a{
+
+ position: relative;
+ float: left;
+ right: 590px;
+ font-size: 70px;
+ margin-top: 100px;
+ color: white;
+
+}
+.menu ul li .linha_1 .C a{
+
+ position: relative;
+ float: left;
+ right: 1040px;
+ font-size: 70px;
+ margin-top: 100px;
+ color: white;
+
+}
+.menu ul li .linha_1 .D a{
+
+ position: relative;
+ float: left;
+ right: 1485px;
+ font-size: 70px;
+ margin-top:100px;
+ color: white;
+
+}
+.menu ul li .linha_1 .E a{
+  display: block;
+  position: relative;
+  float: left;
+  left: 235px;
+  font-size: 70px;
+  margin-top:-30px;
+  color: white;
+
+}
+.menu ul li .linha_1 .F a{
+  display: block;
+  position: relative;
+  float: left;
+  left: 335px;
+  font-size: 70px;
+  margin-top:-30px;
+  color: white;
+
+}
+.menu ul li .linha_1 .G a{
+  display: block;
+  position: relative;
+  float: left;
+  left: 425px;
+  font-size: 70px;
+  margin-top:-30px;
+  color: white;
+
+}
+.menu ul li .linha_1 .H a{
+  display: block;
+  position: relative;
+  float: left;
+  left: 528px;
+  font-size: 70px;
+  margin-top:-30px;
+  color: white;
+
+}
+.menu ul li .linha_1 .I a{
+  display: block;
+  position: relative;
+  float: left;
+  left: 635px;
+  font-size: 70px;
+  margin-top:-30px;
+  color: white;
+
+}
+.menu ul li .linha_1 .J a{
+  display: block;
+  position: relative;
+  float: left;
+  left: 735px;
+  font-size: 70px;
+  margin-top:-30px;
+  color: white;
+
+}
+.menu ul li .linha_1 .L a{
+  display: block;
+  position: relative;
+  float: left;
+  left: 835px;
+  font-size: 70px;
+  margin-top:-30px;
+  color: white;
+
+}
+.menu ul li .linha_1 .M a{
+  display: block;
+  position: relative;
+  float: left;
+  left: 935px;
+  font-size: 70px;
+  margin-top:-30px;
+  color: white;
+
+}
+
+.menu ul li .linha_1 li{
+ width: 15px;
+ margin-right: 5%;
+ color: white;
+}
+.menu ul li .linha_2{
+ margin-left: 40px;
+ color: white;
+}
+.menu ul li .linha_2 .N a{
+ position: relative;
+ float: left;
+ right: 220px;
+ font-size: 70px;
+ top: 60px;
+ color: white;
+ z-index: 2;
+}
+.menu ul li .linha_2 .O a{
+ position: relative;
+ float: left;
+ right: 190px;
+ font-size: 70px;
+ top: 60px;
+ color: white;
+ z-index: 2;
+}
+.menu ul li .linha_2 .P a{
+ position: relative;
+ float: left;
+ right: 160px;
+ font-size: 70px;
+ top: 60px;
+ color: white;
+ z-index: 2;
+}
+.menu ul li .linha_2 .Q a{
+ position: relative;
+ float: left;
+ left: 60px;
+ font-size: 70px;
+ top: 30px;
+ color: white;
+ z-index: 2;
+}
+.menu ul li .linha_2 .R a{
+ position: relative;
+ float: left;
+ left: 100px;
+ font-size: 70px;
+ top: 30px;
+ color: white;
+ z-index: 2;
+}
+.menu ul li .linha_2 .S a{
+ position: relative;
+ float: left;
+ left: 130px;
+ font-size: 70px;
+ top: 30px;
+ color: white;
+ z-index: 2;
+}
+.menu ul li .linha_2 .T a{
+ position: relative;
+ float: left;
+ left: 355px;
+ font-size: 70px;
+ top: 0px;
+ color: white;
+ z-index: 2;
+}
+
+.menu ul li .linha_2 .U a{
+ position: relative;
+ float: left;
+ left: 392px;
+ font-size: 70px;
+ top: 0px;
+ color: white;
+ z-index: 2;
+}
+.menu ul li .linha_2 .V a{
+ position: relative;
+ float: left;
+ left: 418px;
+ font-size: 70px;
+ top: 0px;
+ color: white;
+ z-index: 2;
+}
+
+.menu ul li .linha_2 .X a{
+ position: relative;
+ float: left;
+ left: 652px;
+ font-size: 70px;
+ bottom: 30px;
+ color: white;
+ z-index: 2;
+}
+.menu ul li .linha_2 .Y a{
+ position: relative;
+ float: left;
+ left: 695px;
+ font-size: 70px;
+ bottom: 30px;
+ color: white;
+ z-index: 2;
+}
+.menu ul li .linha_2 .Z a{
+ position: relative;
+ float: left;
+ left: 742px;
+ font-size: 70px;
+ bottom: 30px;
+ color: white;
+ z-index: 2;
+}
+
+.menu ul li .linha_2 li{
+ width: 15px;
+ margin-right: 5%;
+ color: white;
+}
+
+.linha_2{
+ margin-top: -300px;
+ z-index: 1;
+}
+
+
+
+.imagem img{
+ width: 200px;
+ height: 200px;
+ background-color: #9BBE7A;
+ border-radius: 200px;
+}
+.imagem img{
+
+}
+
+a.imagem1 img{
+  display: block;
+  position: relative;
+  left: 10%;
+}
+form.buscar{
+  display: block;
+  position: relative;
+  bottom:20px;
+  left: 15.5%;
+  height: 26px;
+  outline: none;
+
+}
+.buscar{margin-left: 25%;
+ margin-top: -25px;
+ outline: none;
+}
+.imagem1{
+
+  margin-top: 10px;
+  margin-left:15%;
+}
+.digitar{
+  width: 45%;
+  height:20px;
+  margin-right: 70%;
+  border-radius:15px;
+  border-color: #9BBE7A;
+  border-style: solid;
+  border-width: 1.5px 1.5px 1.5px 1.5px;
+  text-indent: 15px;
+  margin-bottom: 10px;
+  outline: none;
+  margin-left: 10px;
+
+}
+
+.buttton{
+ border-style: none;
+ background: none;
+ float: left;
+ display: block;
+ margin-top: -30px;
+ margin-left: 46%;
+ outline: none;
+ width: 40px;
+ height: 40px;
+}
+
+
+.quebra{
+  width: 100%;
+
+  
+}
+h3{
+  text-align: center;
+  color: gray;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+figure h3{
+  margin-top: 10%;
+  font-size: 25px;
+  text-align: center;
+  color: gray;
+}
+
+.quebra2{
+ 
+  width: 100%;
+ 
+  top: 20.5%;
+
+
+}
+.slide_bt{
+  display: block;
+  position: relative;
+  bottom: 270px;
+  background: none;
+  border: none;
+  left: 90%;
+  outline: none;
+  margin-right:  10%;
+
+  
+}
+
+.slide_bt2{
+  display: block;
+  position: relative;
+  bottom: 218px;
+  background: none;
+  border: none;
+  outline: none;
+  margin-left: 5%;
+  margin-top:0%;
+  
+}
+#itens figure{
+  width: 200px;
+  height:350px;
+
+
+  margin-left: 3%;
+  margin-top: 3%;
+  float: left;
+
+}
+
+
+
+#itens {
+  margin-left: 13%;
+
+}
+#conteudo{
+  margin-top: -7%;
+  
+}
+.reg{
+  display: block;
+  margin-bottom: -1%;
+  margin-left: 85%;
+  margin-top: 1%;
+}
+
+
+
+
+
+
+footer{
+ position: relative;
+
+  width: auto;
+  height:11vh;
+  top: 290px;
+ 
+ 
+  
+}
+
+
+footer p.para {
+ position: relative;
+ bottom:40px;
+ float: left;
+ margin:85px;
+ font-size: 1rem;
+color: gray;
+}
+
+footer p.para a{
+
+color: gray;
+}
+.roda{
+  margin-bottom: 15px; 
+  margin-right: 25px;
+}
+
+footer p.rede{
+  position: relative;
+  bottom: 20px;
+  font-size: 1rem;  
+  left: 117px;
+color: gray;
+}
+.para a{
+  color: black;
+}
+.quebra4{
+    margin-top: 230px;
+    width: 100%;
+}
+.face{
+  position: relative;
+  left: 110px;
+  bottom: 5px;
+}
+.tw{
+  position: relative;
+  bottom: 7px;
+}
+.insta{
+  position: relative;
+  left: 54px;
+  top: 30px;
+}
+.you{
+  position: relative;
+
+  left:56px;
+  top: 30px; 
+}
+   
+   .imagem{
+       width: 200px;
+       height: 200px;
+       background-color: #9BBE7A;
+       border-radius: 200px;
+   }
+
+@media screen and (min-width: 1200px)  {
+
+
+  .Slides {
+    display: none;
+    height: 420px;;
+  }
+  .Slides2 {
+    margin-bottom: -28%;
+    height: 420px;
+
+  }
+  .quebra3{
+    margin-top: -25%;
+    width: 100%;
+    margin-bottom: -20%;
+  }
+
+  .slide_bt11{
+    
+    position: relative;
+    margin-top:12%;
+    background: none;
+    border: none;
+    left: 80%;
+    outline: none;
+    margin-right:  15%;
+    
+  }
+
+  .slide_bt22{
+
+    position: relative;
+    top:500%;
+    background: none;
+    border: none;
+    outline: none;
+    margin-left: 5%;
+
+  }
+  .mySlides2 {
+    display: block;
+    height: 420px;
+
+  }
+  .img1{
+    margin-left: -92%;
+    margin-top: 1%;
+
+
+  }
+  .img1:hover{
+    margin-top:2%;
+
+  }
+}
+@media screen and (min-width: 900px) and (max-width:1199px) {
+  #itens figure{
+    width: 150px;
+    height: 150px;
+    background-color: #eeeeee;
+    border-radius: 100px;
+    margin-left: 3.5%;
+    margin-top: 3%;
+    float: left;
+    
+  }
+  #itens {
+    margin-left: 13%;
+
+  }
+  #moldura{
+    width: 750px;
+    height: 250px;
+    background-color: #eeeeee;
+    transition: background-image 1s;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: -15%;
+    margin-right: 10%;
+    
+  }
+  .slide_bt{
+    display: block;
+    position: relative;
+    bottom: 210px;
+    background: none;
+    border: none;
+    left: 90%;
+    outline: none;
+    margin-right:  10%;
+    
+  }
+
+  .slide_bt2{
+    display: block;
+    position: relative;
+    bottom: 150px;
+    background: none;
+    border: none;
+    outline: none;
+    margin-left: 7%;
+    margin-top:16%;
+    
+  }
+}
+@media screen and (min-width: 450px) and (max-width:899px) {
+  #itens figure{
+    width: 100px;
+    height: 100px;
+    background-color: #eeeeee;
+    border-radius: 100px;
+    margin-left: 3%;
+    margin-top: 3%;
+    float: left;
+    margin-top: 2%;
+    margin-bottom:  7%;
+  }
+
+  #itens {
+    margin-left: 20%;
+
+  }
+  #moldura{
+    width: 500px;
+    height: 200px;
+    background-color: #eeeeee;
+    transition: background-image 1s;
+    margin-top: 5%;
+    margin-left: 22%;
+    margin-bottom: -19%;
+    
+  }
+  .slide_bt{
+    display: block;
+    position: relative;
+    bottom: 110px;
+    background: none;
+    border: none;
+    left: 90%;
+    outline: none;
+    margin-right:  10%;
+    
+  }
+
+  .slide_bt2{
+    display: block;
+    position: relative;
+    bottom: 60px;
+    background: none;
+    border: none;
+    outline: none;
+    margin-left: 7%;
+    margin-top:16%;
+    
+  }
+  form.buscar{
+    display: block;
+    position: relative;
+    bottom:20px;
+    
+    height: 26px;
+    outline: none;
+    float: none;
+  }
+  .digitar{
+    width: 45%;
+    height:20px;
+    margin-right: 70%;
+    border-radius:10px;
+    border-color: #9BBE7A;
+    border-style: solid;
+    border-width: 1.5px 1.5px 1.5px 1.5px;
+    display: block;
+    margin-bottom: 10px;
+    outline: none;
+    margin-top: 10%;
+  }
+  .buscar{margin-left: 15%;
+   margin-top: -25px;
+   outline: none;
+ }
+ .menu{
+   display: block;
+   width: 100%;
+   margin-top: 7%;
+   background-color:white;
+   font-family: 'Arial';
+   top: 120px;
+   position: absolute;
+   border: 1px solid #7ba468;
+   
+ }
+ .imagem1{
+
+  margin-top: 10px;
+  margin-left:13%;
+  width: 200px;
+  height: 80px;
+  margin-left: 40%;
+}
+
+.menu ul li {
+ width: 19.7%;
+ float: left;
+ margin-left: 3%;
+ font-size: 10px;
+}
+.quebra2{
+  margin-top: -5%;
+}
+.botinho{
+  width: 45px;
+  height: 45px;
+}
+}
+@media screen and   (max-width:449px) {
+  #itens figure{
+    width: 100px;
+    height: 100px;
+    background-color: #eeeeee;
+    border-radius: 100px;
+    margin-left: 3%;
+    margin-top: 3%;
+    float: left;
+    margin-top: 2%;
+    margin-bottom:  7%;
+  }
+
+  #itens {
+    margin-left: 16%;
+
+  }
+  #itens figure h3{
+    margin-top: 110%;
+    margin-bottom: 3%;
+    font-size: 0.7rem;
+  }
+
+  .menu ul li {
+   width: 19.7%;
+   float: left;
+   margin-left: 2.5%;
+   font-size: 8px;
+ }
+ .imagem1{
+
+  margin-top: 10px;
+  margin-left:32%;
+  width:150px;
+  height: 55px;
+
+}
+form.buscar{
+  display: block;
+  position: relative;
+  bottom:-5px;
+  
+  height: 15px;
+  outline: none;
+  float: none;
+}
+.digitar{
+  width: 45%;
+  height:20px;
+  margin-right: 70%;
+  border-radius:10px;
+  border-color: #9BBE7A;
+  border-style: solid;
+  border-width: 1.5px 1.5px 1.5px 1.5px;
+  display: block;
+  margin-bottom: 10px;
+  outline: none;
+  margin-top: 10%;
+}
+.buscar{margin-left: 15%;
+ margin-top: -25px;
+ outline: none;
+}
+.buttton{
+ border-style: none;
+ background: none;
+ float: left;
+ display: block;
+ margin-top: -24px;
+ margin-left: 48%;
+ outline: none;
+ height: 25px;
+ width: 25px;
+}
+h3{
+  text-align: center;
+  color: gray;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+#moldura{
+  width: 100%;
+
+  background-color: #eeeeee;
+  transition: background-image 1s;
+  margin-top: 23%;
+  margin-left: -1%;
+  margin-bottom: -35%;
+  
+  
+}
+.slide_bt{
+  display: block;
+  position: relative;
+  bottom: 210px;
+  background: none;
+  border: none;
+  left: 75%;
+  outline: none;
+  margin-right:  10%;
+  
+}
+
+.slide_bt2{
+  display: block;
+  position: relative;
+  bottom: 150px;
+  background: none;
+  border: none;
+  outline: none;
+  margin-left: 7%;
+  margin-top:13%;
+  
+}
+}
